@@ -17,10 +17,11 @@ A modern iOS application for searching and viewing Flickr photos, built with cle
 ```
 FlickrSearch/
 ├── Models/                 # Data models
-│   └── FlickrModels.swift
+│   ├── FlickrPhotoInfo.swift
+│   └── FlickrSearchResponse.swift
 ├── Networking/            # Network layer
 │   ├── NetworkError.swift
-│   └── FlickrAPIService.swift
+│   └── Networking.swift
 ├── Repositories/          # Data persistence
 │   └── SearchHistoryRepository.swift
 ├── ViewModels/            # Business logic
